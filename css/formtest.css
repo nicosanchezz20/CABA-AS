@@ -1,0 +1,55 @@
+/* CUERPO DE LA PAGINA*/
+body {background: url(img/celeste04.jpg);
+    background-attachment: fixed;
+}
+
+/*TITULO BIENVENIDOS A CABAÑAS PUNILLA Y CONOCENOS*/
+
+header {background: url(img/celeste04.jpg);
+    font-family: Verdana}
+
+
+.bm {width: 100%;
+
+bottom: 500px;
+}
+
+.iglesia img {width: 150px;
+    border-radius: 50%;}
+
+h2 {font-size: 20px; }
+
+/* PESTAÑA CONTACTO*/
+
+form	{width: 25%;
+		border: 1px solid black;
+		margin: 1% auto;
+		padding:  5%;
+		
+	}
+form textarea {resize: vertical;
+				max-height: 300px;
+				min-height: 100px}
+
+label, p {font-family: Verdana;
+		font-size: 15px;
+		display: block}
+
+form input, textarea {margin-bottom: 2%;
+			width: 100%;
+			padding: 2%;
+			box-sizing:border-box ;}
+
+form input:focus, textarea:focus {border: 1px solid #1668C4;
+									outline: transparent}
+
+form input[type="submit"] {margin-bottom: 4%;
+						background: #1668C4;
+						color: white;
+						border: none;
+						cursor: pointer}
+
+form input[type="reset"] {background: darkred;
+						color: white;
+						border: none;
+						cursor: pointer}

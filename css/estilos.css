@@ -1,0 +1,143 @@
+/* CUERPO DE LA PAGINA*/
+body {background: url(img/celeste04.jpg);
+		background-attachment: fixed;
+}
+
+
+/*TITULO BIENVENIDOS A CABAÑAS PUNILLA Y CONOCENOS*/
+
+header {background: url(img/celeste04.jpg);
+		font-family: Verdana}
+
+
+.bm {width: 100%;
+	bottom: 500px;
+	}
+
+.iglesia img {width: 150px;
+		border-radius: 50%;}
+
+h2 {font-size: 20px; }
+
+/*NAVEGADOR*/
+
+header nav {background: #EFFDE4;
+			border: 2px solid black;
+			font-family: Verdana ;
+			font-weight: bold;
+			
+	}
+
+.men	{width: 100%;
+		list-style: none
+		; margin:0%;
+			padding: 0%;
+		}
+
+.men li {display: inline-block;}
+
+.men li a {color: black;
+		display: inline-block;
+		font-size: 15px;
+		padding: 2px 20px;
+		text-decoration: none;
+		text-shadow: .5px .5px 0px grey;
+		margin:0px 80px}
+
+nav a:hover {padding: 2px 20px;
+		background: grey;
+		color: white;
+		border-radius:10%}
+
+/* PESTAÑA CONTACTO*/
+
+form	{width: 25%;
+		border: 1px solid black;
+		margin: 1% auto;
+		padding:  5%;
+		
+	}
+form textarea {resize: vertical;
+				max-height: 300px;
+				min-height: 100px}
+
+label, p {font-family: Verdana;
+		font-size: 15px;
+		display: block}
+
+form input, textarea {margin-bottom: 2%;
+			width: 100%;
+			padding: 2%;
+			box-sizing:border-box ;}
+
+form input:focus, textarea:focus {border: 1px solid #1668C4;
+									outline: transparent}
+
+form input[type="submit"] {margin-bottom: 4%;
+						background: #1668C4;
+						color: white;
+						border: none;
+						cursor: pointer}
+
+form input[type="reset"] {background: darkred;
+						color: white;
+						border: none;
+						cursor: pointer}
+
+/* PESTAÑA FOTOS: POSICIONES*/
+
+.pictures  img {width: 300px;
+			margin: auto;
+			box-shadow: 10px 10px 0px grey;
+			display: block;
+			border-radius: 8%;}
+
+.nos  img {width: 300px;
+			margin: auto;
+			border-radius: 8%;}
+
+section  	{text-align: center;
+				margin-bottom: 1%;
+				font-family: Verdana;
+				font-weight: bold;}
+
+/*TEXTO DE Nuestro complejo es un espacio...*/
+
+.explicacion {display: inline-flex;}
+
+.main {color: black;
+		width: 90%;
+		margin-top: 1%;
+		margin-left: 1%;
+		}
+
+/*TEXTO DE Cabañas Punilla es un complejo...*/
+
+.wrapper {display: inline-flex;}
+
+article {color: black;	
+			width: 90%;
+			margin-top: 1%;
+			margin-left: 2%;
+			
+			}
+
+article p {margin:2%;
+			}
+
+/*CORRECCIÓN TAMAÑO IMAGEN DE CABAÑA1*/
+.cabaña1 {height: 225px;}
+.cab1 {height: 225px;}
+
+
+/*POSICIONAMIENTO ASIDE DE INICIO Y SOBRE NOSOTROS */
+
+aside {margin-top: 1%;}
+
+aside img  {width: 300px;
+
+			}
+
+/*COPYRIGHT*/
+footer {
+	text-align: center;}
